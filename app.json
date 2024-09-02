@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Minhas Tarefas",
+    "slug": "tarefas",
+    "version": "2.0.0",
+    "description": "Uma maneira fácil e pratica para anotar minhas tarefas do dia-a-dia",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "platforms": 
+        ["ios","android"],
+    "ios": {
+      "supportsTablet": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon3.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon3.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.leandrogarcia.dev.apptarefas"
+    },
+    "web": {
+      "favicon": "./assets/favicon2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "78022b43-e343-4367-bea8-549ac1c513c6"
+      }
+    }
+  }
+}
